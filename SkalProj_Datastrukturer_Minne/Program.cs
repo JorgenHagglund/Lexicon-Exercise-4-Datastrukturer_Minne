@@ -2,6 +2,17 @@
 
 namespace SkalProj_Datastrukturer_Minne
 {
+    /*
+     * Answer 1: The stack is a FILO, alternative LIFO (Last In First Out) data structure, While the heap
+     *  is a Random Access Memory (RAM) data structure.
+     *  
+     * Answer 2: Value types are stored on the stack, while reference types are stored on the heap.
+     *  Reference types are practically pointers.
+     *  
+     * Answer 3: First example is using value types, Assignment of value types copies the value,
+     *  The second expample is using reference types, Assignment of reference types copies the pointer value,
+     *  which means both x and y points to the same location in memory (the heap)..
+     */
     class Program
     {
         /// <summary>
